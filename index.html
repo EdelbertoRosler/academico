@@ -1,0 +1,37 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+
+        <title>upload</title>
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <div id="titulo">
+                    <h1>
+                        <p>Bem vindo a área de upload de arquivos</p>
+                    </h1>
+                </div>
+            </header>
+            <div class="warning-message" style="display: none;">
+                <p>Verifique se você selecionou um arquivo e se o tipo está no formato 'text/plan'</p>
+            </div>
+            <form id="upload" enctype="multipart/form-data" action="formulario.php" method="POST">
+                <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+                <input name="userfile" class="btn btn-secondary" type="file"/>
+                <br><br>
+                <input type="submit" class="btn btn-primary" value="Enviar Arquivo">
+            </form>
+            
+        </div>
+    </body>
+    <link rel="stylesheet" href="assets/css/index.css">
+        <script type="text/javascript" src="assets/js/index.js"></script>
+    </html>

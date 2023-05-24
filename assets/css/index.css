@@ -1,0 +1,24 @@
+#titulo {
+    text-align: center;
+    font-size: large;
+    color: #012e4d;
+    padding-top: 10px;
+}
+
+#upload {
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+.warning-message {
+    background-color: #f8f6b4;
+    text-align: center;
+    font-size: larger;
+    color: #5b5806;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
